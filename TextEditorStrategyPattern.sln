@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditorStrategyPattern", "TextEditorStrategyPattern\TextEditorStrategyPattern.csproj", "{1FCEDBB7-2AC5-4889-B9D2-BE70F0536AF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextEditorStrategyPattern", "TextEditorStrategyPattern\TextEditorStrategyPattern.csproj", "{1FCEDBB7-2AC5-4889-B9D2-BE70F0536AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F98A4053-7345-45C1-8C3D-F139EB5E9080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{F98A4053-7345-45C1-8C3D-F139EB5E9080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentStorageBridgePattern", "ContentStorageBridgePattern\ContentStorageBridgePattern.csproj", "{50A85918-2008-4D45-9B80-9DC2F8919D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoomMediatorPattern", "ChatRoomMediatorPattern\ChatRoomMediatorPattern.csproj", "{3AF8F279-F22C-481C-9B38-C83788D9A4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMediatorPattern", "NetworkMediatorPattern\NetworkMediatorPattern.csproj", "{20878DBA-6C74-4DD9-9404-B6F9BF52DFCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{F98A4053-7345-45C1-8C3D-F139EB5E9080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F98A4053-7345-45C1-8C3D-F139EB5E9080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F98A4053-7345-45C1-8C3D-F139EB5E9080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A85918-2008-4D45-9B80-9DC2F8919D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A85918-2008-4D45-9B80-9DC2F8919D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A85918-2008-4D45-9B80-9DC2F8919D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A85918-2008-4D45-9B80-9DC2F8919D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF8F279-F22C-481C-9B38-C83788D9A4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF8F279-F22C-481C-9B38-C83788D9A4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF8F279-F22C-481C-9B38-C83788D9A4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF8F279-F22C-481C-9B38-C83788D9A4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20878DBA-6C74-4DD9-9404-B6F9BF52DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20878DBA-6C74-4DD9-9404-B6F9BF52DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20878DBA-6C74-4DD9-9404-B6F9BF52DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20878DBA-6C74-4DD9-9404-B6F9BF52DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
