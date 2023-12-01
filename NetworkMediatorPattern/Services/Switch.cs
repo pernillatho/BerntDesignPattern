@@ -13,7 +13,10 @@ public class Switch : ISwitch
 
     public void NotifyAll(string message, string sender)
     {
-        
+        foreach (var c in _computers)
+        {
+           c.Value.ReceivedMessage(sender, message);
+        }
     }
 
     public void Register(IComputer iComputer)

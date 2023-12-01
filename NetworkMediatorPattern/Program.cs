@@ -8,8 +8,6 @@ namespace NetworkMediatorPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
             ISwitch sSwitch = new Switch();
             ILogger consoleLogger = new ConsoleLogger();
 
@@ -18,7 +16,7 @@ namespace NetworkMediatorPattern
             IComputer computerZ = new Computer.Computer("Z", consoleLogger, sSwitch);
 
             computerZ.SendingMessage("X", "Hej");
-
+            computerY.BroadCastMessage("Hej");
         }
     }
 }
